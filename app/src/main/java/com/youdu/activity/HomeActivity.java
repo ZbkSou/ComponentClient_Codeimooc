@@ -17,6 +17,9 @@ import com.youdu.view.fragment.home.HomeFragment;
 import com.youdu.view.fragment.home.MessageFragment;
 import com.youdu.view.fragment.home.MineFragment;
 
+//操作fragment 的时候 detach 和attach 不会销毁fragment 但是会销毁其中的view 
+// replace 会移除栈中的所有fragment 
+
 
 public class HomeActivity extends BaseActivity implements OnClickListener {
 
